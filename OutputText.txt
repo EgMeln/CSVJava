@@ -1,0 +1,3 @@
+Macdonalds;Mac;1998;Minsk;1985;1000;Igor;375441239875;Igor@gmail.com;service;fastfood;www.Mac.com;
+20 Century Fox;Fox;1954;Los Angeles;1928;100000;Jhon;;Jhon@gmail.com;entertainments;film;www.Fox.com;
+Nike;Nike;1945;Canada;1895;25000;Alex;;;sport;clothing;www.Nike.com;
