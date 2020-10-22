@@ -1,0 +1,15 @@
+окт. 22, 2020 9:32:14 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 22, 2020 9:33:32 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 22, 2020 9:35:02 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 22, 2020 9:35:04 PM com.bsu.by.Main getByRequest
+FINE: Find company  Mac, Companies found: 1
+
+окт. 22, 2020 9:35:07 PM com.bsu.by.Main getByRequest
+FINE: Find company  Nike, Companies found: 1
+
