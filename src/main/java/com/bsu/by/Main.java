@@ -1,6 +1,7 @@
 package com.bsu.by;
 
-import javax.annotation.processing.Processor;
+import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -23,6 +24,7 @@ public class Main {
         ArrayList<Company> companyList = new ArrayList<>();
         Path path = Paths.get("InputText.txt");
         FileWriter fw = new FileWriter("OutputText.txt", false);
+        Scanner inputRequest = new Scanner(new FileReader("inRequest.txt"));
         LOGGER.setLevel(Level.FINE);
         FileHandler fh = new FileHandler(LOG_FILE_NAME, true);
         fh.setLevel(Level.FINE);
@@ -35,13 +37,20 @@ public class Main {
                 String[] company = line.split(";");
                 companyList.add(new Company(company));
             }
-            List<Company> foundCompanies = getByRequest(scanner, companyList);
-            for (Company i : foundCompanies) {
-                for (String j : i.getStr()) {
-                    fw.write(j + ";");
-                }
-                fw.write("\n");
+            int index = 1;
+            //List<Company> foundCompanies = getByRequest(companyList);
+            String request;
+            while (inputRequest.hasNextLine()) {
+                request = inputRequest.nextLine();
+                getByRequestSQL(request, companyList, index);
+                index++;
             }
+//            for (Company i : foundCompanies) {
+//                for (String j : i.getStr()) {
+//                    fw.write(j + ";");
+//                }
+//                fw.write("\n");
+//            }
         } catch (IOException | ParseException a) {
             System.out.println(a.getMessage());
         }
@@ -57,7 +66,7 @@ public class Main {
         System.out.println();
     }
 
-    static List<Company> getByRequest(Scanner scanner, List<Company> companyList) throws IllegalArgumentException, ParseException {
+    static List<Company> getByRequest(List<Company> companyList) throws IllegalArgumentException, ParseException {
         List<Company> result = new ArrayList<>();
         String requestString;
         try (Scanner sc = new Scanner(System.in)) {
@@ -107,6 +116,40 @@ public class Main {
                 Main.LOGGER.fine("Find company " + " :" + requestString + ", Companies found: " + result.size() + "\n");
             }
         }
+    }
+
+    static void getByRequestSQL(String str, List<Company> companyList, int index) throws ParseException {
+        String[] data = str.toLowerCase().split(" |\\=");
+        List<Company> result = new ArrayList<>();
+        for (int i = 5; i < data.length; i++) {
+            switch (data[i]) {
+                case "short_name":
+                    result = Search.findByShortName(companyList, data[i + 1]);
+                    break;
+                case "industry":
+                    result = Search.findByIndustry(companyList, data[i + 1]);
+                    break;
+                case "employee":
+                    int num1 = Integer.parseInt(data[i + 2]);
+                    int num2 = Integer.parseInt(data[i + 4]);
+                    i += 2;
+                    result = Search.findByAmountEmployee(companyList, num1, num2);
+                    break;
+            }
+        }
+        try (FileWriter of = new FileWriter(new File("Request" + index + ".csv"))) {
+            if (result.isEmpty()) {
+                of.write("None\n");
+            } else {
+                for (Company company : result) {
+                    of.write(company.toString() + System.lineSeparator());
+                }
+            }
+            of.write(System.lineSeparator());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        LOGGER.fine("SQL request: " + str + "\nCompanies found: " + result.size());
     }
 }
 

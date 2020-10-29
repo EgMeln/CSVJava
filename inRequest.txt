@@ -1,0 +1,2 @@
+select * from company_table where short_name=Mac employee between 90 and 181
+select * from company_table where short_name=FOX industry=entertainments

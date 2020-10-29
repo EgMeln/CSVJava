@@ -1,3 +1,3 @@
-Macdonalds;Mac;26.12.1998;Minsk;12.12.1985;1000;Igor;375441239875;Igor@gmail.com;service;fastfood;www.Mac.com;
+Macdonalds;Mac;26.12.1998;Minsk;12.12.1985;100;Igor;567566767;Igor@gmail.com;service;fastfood;www.Mac.com;
 20 Century Fox;Fox;20.04.1954;Los Angeles;04.01.1928;100000;Jhon;;Jhon@gmail.com;entertainments;film;www.Fox.com;
 Nike;Nike;24.05.1945;Canada;11.10.1895;25000;Alex;;;sport;clothing;www.Nike.com;

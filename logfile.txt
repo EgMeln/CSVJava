@@ -13,3 +13,192 @@ FINE: Find company  Mac, Companies found: 1
 окт. 22, 2020 9:35:07 PM com.bsu.by.Main getByRequest
 FINE: Find company  Nike, Companies found: 1
 
+окт. 29, 2020 8:49:21 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 8:51:37 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 8:57:38 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 8:58:33 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:08:54 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:09:32 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:10:15 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:14:15 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:14:54 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:15:01 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:15:26 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:18:48 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:28:04 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:31:45 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:31:55 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 9:32:41 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:03:08 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:03:36 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 0
+окт. 29, 2020 10:04:23 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:04:53 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 0
+окт. 29, 2020 10:04:54 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:04:54 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 0
+окт. 29, 2020 10:05:32 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:06:29 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 0
+окт. 29, 2020 10:06:30 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:06:30 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:19:29 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:19:29 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:19:29 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name="FOX" industry="film"
+Companies found: 0
+окт. 29, 2020 10:19:49 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:19:49 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:19:49 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name="FOX" industry="entertainments"
+Companies found: 0
+окт. 29, 2020 10:19:58 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:19:58 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:19:58 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name="FOX" industry="entertainments"
+Companies found: 0
+окт. 29, 2020 10:20:15 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:20:41 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:22:10 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name="FOX" industry="entertainments"
+Companies found: 0
+окт. 29, 2020 10:22:15 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:22:15 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:22:15 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name="FOX" industry="entertainments"
+Companies found: 0
+окт. 29, 2020 10:22:57 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:22:57 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:22:57 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
+окт. 29, 2020 10:40:41 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:40:41 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:40:41 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
+окт. 29, 2020 10:41:48 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:42:14 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:42:14 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:42:14 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
+окт. 29, 2020 10:43:42 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:44:18 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:46:41 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
+окт. 29, 2020 10:46:43 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:46:43 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:46:43 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
+окт. 29, 2020 10:48:12 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:48:12 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:48:12 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
+окт. 29, 2020 10:48:29 PM com.bsu.by.Main main
+FINE: Program started...
+
+окт. 29, 2020 10:48:29 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=Mac employee between 90 and 181
+Companies found: 1
+окт. 29, 2020 10:48:29 PM com.bsu.by.Main getByRequestSQL
+FINE: SQL request: select * from company_table where short_name=FOX industry=entertainments
+Companies found: 1
